@@ -8,6 +8,7 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
+
         System.out.println("Hello world!");
     }
 }
