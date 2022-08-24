@@ -7,6 +7,7 @@ public class Main {
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
+
         System.out.println("Hello world!");
     }
 }
