@@ -50,6 +50,17 @@ public class Main {
         var weightDifference = boxerTwo - boxerOne;
         System.out.println("Разница в весе боксёров " + weightDifference + " кг !");
 
+        var weightOne = 78.2;
+        System.out.println("Вес первого спортсмена " + weightOne + " кг");
+        var weightTwo = 82.7;
+        System.out.println("Вес второго спортсмена "+ weightTwo + " кг");
+        var differenceWeight = (weightTwo - weightOne);
+        System.out.println("разница в весе спортсменов " + differenceWeight+ " кг!");
+        var weightChange = (weightTwo - weightOne)% totalWeight ;
+        System.out.println("вес второго боьше на " + weightChange + " кг");
+
+
+
 
 
 
