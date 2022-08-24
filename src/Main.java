@@ -41,6 +41,19 @@ public class Main {
         frog= frog + 4;
         System.out.println(frog);
 
+        var boxerOne = 78.2;
+        System.out.println("вес боксёра 1 " + boxerOne + " кг");
+        var boxerTwo = 82.7;
+        System.out.println("вес боксёра 2  " + boxerTwo + " кг");
+        var totalWeight = boxerOne + boxerTwo;
+        System.out.println("Общий вес боксёров " + totalWeight + " кг !");
+
+
+
+
+
+
+
 
 
 
