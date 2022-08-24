@@ -60,6 +60,16 @@ public class Main {
         System.out.println("вес второго боьше на " + weightChange + " кг");
 
 
+         var totalHours = 640;
+         System.out.println(" Всего рабочих часов "+ totalHours);
+         var timeIndividual = 8;
+         System.out.println("Каждый сотрудник работает по " + timeIndividual + " часов");
+         var staff = totalHours / timeIndividual;
+         System.out.println("Всего в компании "+ staff + " человек работают по 8 часов");
+         var newStaff = staff + 94;
+         System.out.println("количество после увеличения колличества сотрудников " + newStaff+" человек" );
+         var workinfHours = totalHours/newStaff;
+         System.out.println("количество индивидуального часов после увеличения штата  " + workinfHours);
 
 
 
@@ -74,6 +84,8 @@ public class Main {
 
 
 
-        System.out.println("Hello world!");
+
+
+        System.out.println("Home Work 3!");
     }
 }
